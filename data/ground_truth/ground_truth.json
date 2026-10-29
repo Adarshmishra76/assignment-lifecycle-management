@@ -1,0 +1,34 @@
+[
+  {
+    "issue_type": "unenrolled_submission",
+    "ground_truth": "anomaly",
+    "affected_entity_type": "submission",
+    "affected_entity_id": "FIXTURE",
+    "expected_behavior": "Reject at application layer; detect in offline validation",
+    "explanation": "A submission exists for a learner who is not enrolled in the course."
+  },
+  {
+    "issue_type": "grade_exceeds_rubric_max",
+    "ground_truth": "anomaly",
+    "affected_entity_type": "grade",
+    "affected_entity_id": "FIXTURE",
+    "expected_behavior": "Reject invalid criterion/raw scores",
+    "explanation": "A posted grade has a raw or criterion score above the rubric maximum."
+  },
+  {
+    "issue_type": "duplicate_late_penalty",
+    "ground_truth": "anomaly",
+    "affected_entity_type": "grade_penalty",
+    "affected_entity_id": "FIXTURE",
+    "expected_behavior": "Apply each penalty at most once per submission version",
+    "explanation": "Two late penalties are recorded for the same submission."
+  },
+  {
+    "issue_type": "appeal_grade_change_without_audit",
+    "ground_truth": "anomaly",
+    "affected_entity_type": "appeal",
+    "affected_entity_id": "FIXTURE",
+    "expected_behavior": "Commit grade change and audit atomically",
+    "explanation": "An approved appeal changed a grade without a matching audit event."
+  }
+]

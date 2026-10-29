@@ -1,0 +1,128 @@
+{
+  "seed": 20261022,
+  "mode": "starter",
+  "generated_note": "Logical checksums exclude timestamps and password hashes.",
+  "counts": {
+    "users": 25,
+    "learners": 20,
+    "courses": 3,
+    "enrollments": 40,
+    "assignments": 8,
+    "assignment_versions": 8,
+    "rubrics": 8,
+    "rubric_criteria": 24,
+    "submissions": 42,
+    "artifacts": 40,
+    "grades": 33,
+    "rubric_scores": 99,
+    "grade_revisions": 33,
+    "feedback": 33,
+    "resubmissions": 2,
+    "appeals": 1,
+    "audit_events": 84
+  },
+  "checksums": {
+    "users": {
+      "row_count": 25,
+      "logical_sha256": "be56e51ffab99c9a0504b539d1685c7f173838108a077a5e23cfa6c196f6e001",
+      "csv_sha256": "dce1600d5286024f316a02fdc3170d8b04fe53ec94c5b1c70d60b82bc18b2365",
+      "json_sha256": "1229ba58b32bf07b7394eea3792f00bb74bd5891a95fc641b7405ade2875d4ca"
+    },
+    "learners": {
+      "row_count": 20,
+      "logical_sha256": "3a4d815fe783934e66f0b50c44e4b567d37d6ea3912fae865e871b2d86937ba9",
+      "csv_sha256": "c0a4673cdf0e2ae6a5c5e9753a4d503b14ce555969505cb0cce77772d96d2836",
+      "json_sha256": "d847b2a91e4ed1f774c2ffe57fae821c98aa8a78dff20c6c8828f063552a0542"
+    },
+    "courses": {
+      "row_count": 3,
+      "logical_sha256": "9f2b0a61285c1d083b68fbbfa91336fde548e9f4d610ac9239222f5a6bcc252a",
+      "csv_sha256": "339d76548bb0a0c0dd012284ca8cf36f34b32cd72636dfbc26d2da46fd7fdf7d",
+      "json_sha256": "2ad15ab61159058fcaf1e6788423de5bf007b5b1d7c5ef89a8412e85b631feb4"
+    },
+    "enrollments": {
+      "row_count": 40,
+      "logical_sha256": "597264d6109007c2716bc1fcf0a6c8891118d75c5014855103519d31a72f827f",
+      "csv_sha256": "b7a17db7bc4d7a416b92591776d2d778dd061a04ef3632876899c5b5c8ddd499",
+      "json_sha256": "322cf516f4c869b18656c35dd6a9f39a753112e36fb29b2c370055dac3439244"
+    },
+    "assignments": {
+      "row_count": 8,
+      "logical_sha256": "6901a68600e2c56741cec09e7a0ea61425e5006107f7d00da2c8c45bfe2fc000",
+      "csv_sha256": "c2bea2af8426125e5f68c9863962455b43744934a9853e2e51d883a928fffb8b",
+      "json_sha256": "30e79498459b31a3c907d3499a482cd25e0564f50ad198552a2978d81557407b"
+    },
+    "assignment_versions": {
+      "row_count": 8,
+      "logical_sha256": "c7a1c9ed21e1321be371dbf8c9ce8a8e3deed5506867df6783556d16b5885231",
+      "csv_sha256": "9f7753d60ba7b3803d5e82c7020a2ba8012b5f53b1bd2e460d1d13d0bc2b157b",
+      "json_sha256": "21f3b44f4794aa5329b1f848d11b2f564dec19301a660380df2c951fd15ec992"
+    },
+    "rubrics": {
+      "row_count": 8,
+      "logical_sha256": "463d60c2c52261397faefa70b337c4a7047f6228ba1cde9e9771ee679342e7c4",
+      "csv_sha256": "3f780f1e596d20bf20aa40ff87db1c5b477d29eddd8d9653ccb94497f2b64dba",
+      "json_sha256": "50bf6dd72575287a796a4ca95b0829e0eda76d598e6935f61a2ee2a6061b788e"
+    },
+    "rubric_criteria": {
+      "row_count": 24,
+      "logical_sha256": "44ba190564976c14c11f45a4d6f5db1967679318b12af333d2c63b20c7b22610",
+      "csv_sha256": "33db0c38e93eafe61c5d55ccbc9ccfa7137898c37557e4d6e7490cf1736149d0",
+      "json_sha256": "e479dd94fd4fbf031bcbffd111f14ae07b351cc550c0aff06ef8bee5a82e6429"
+    },
+    "submissions": {
+      "row_count": 42,
+      "logical_sha256": "ecfa146db835f645ad1e73a07721d1677963708e84a98148238a43694455d31f",
+      "csv_sha256": "e88de0434ff1ed0176897768a27b6d592af688a1cd80d336801aa867293c0b4d",
+      "json_sha256": "4ee99443e80004897e13b8f96945086a7a47913cdf7454f3259acfff59661c0a"
+    },
+    "artifacts": {
+      "row_count": 40,
+      "logical_sha256": "29c88eda40be12c8c5f452a44831e37e1c5b93a4522982109be7c168f1419136",
+      "csv_sha256": "a3703400b695cee781609843155a5a8c74f23865e86939a6a3df86a7722dc901",
+      "json_sha256": "247105ebc01666020677c6a594fe4f9707fef4cdf09b6fe5ca4c779ae55a9a47"
+    },
+    "grades": {
+      "row_count": 33,
+      "logical_sha256": "997bf0366e2be96bd883d3c6018673f78eccc07ca1385021bdcb366e62b898ed",
+      "csv_sha256": "d149f4450f982820257b997f92445d4883f9d55ec6d307246bf2df278b1c73a4",
+      "json_sha256": "7e68b810061cdb03fa05f78eff660206a6d4a04e2db74dfdd6fdb2c8e10f722a"
+    },
+    "rubric_scores": {
+      "row_count": 99,
+      "logical_sha256": "ac6053cfd8ec7604f3359a4b4fb71dc17d3695477172ba50a18ad38b0abc2043",
+      "csv_sha256": "97dd0cc2e271b2c56431d3c854874e4d42a47c4cdfd294694b6f5dbf51d0b16f",
+      "json_sha256": "47d0869b8fbcc796d5aa1f11bba70e7c5ba7bb901982236010f00cd0e73a561b"
+    },
+    "grade_revisions": {
+      "row_count": 33,
+      "logical_sha256": "311820f5b328a335926d075305b71342d2af1c5080ce286cf458f6411a78e3c2",
+      "csv_sha256": "40f98a73a9a859eb7d65f871b45ae531f911046e3e39b97e03c947a02788e935",
+      "json_sha256": "5cefedd05e4b40460ad3141604468eef45a54a137465c1a7c37b870bbe55a8f9"
+    },
+    "feedback": {
+      "row_count": 33,
+      "logical_sha256": "d3dca233f8b3c4b55b9c1a7cac65ed0377327b8b08589c851cdad82c3264874b",
+      "csv_sha256": "75e2142acb81516431e472fcdeb1f320e4332dd75da467b0e4999ccf40c2f643",
+      "json_sha256": "dd6106a03772c025bbc533339b134c3f1fbb198e492656ec171a9a7244d44195"
+    },
+    "resubmissions": {
+      "row_count": 2,
+      "logical_sha256": "09a00431a051026c83d228a5c74ababef3c31964d13c69a40140f8cab0994dbd",
+      "csv_sha256": "4e1438d3e317e93b8a157c5d75e022e4beecae027646091cfd3cbe67f89ab61e",
+      "json_sha256": "0381aba215c4ca413a11ee0e95eb5d578115903153602ea48e98512317b0c370"
+    },
+    "appeals": {
+      "row_count": 1,
+      "logical_sha256": "568dbc41a95efcb099563aa0e15a826ab5b808bafce8a134a7ac070437313a09",
+      "csv_sha256": "cd0615db192a7012837ec0ba07ee97f8f61dbcc99d77d16bc4e6b194a6ade6da",
+      "json_sha256": "e721fd33ca4825e444e9a55dd47cf3fe40b18789b1f372645e188eb5452d74be"
+    },
+    "audit_events": {
+      "row_count": 84,
+      "logical_sha256": "bb87d5b98d3608bb9ad392dc9eba268668816d077a293be29f779cf1ea5cb2b2",
+      "csv_sha256": "871eab536b32f07b31a3291d8da02fd61007d5a2b266b2463536f1ee5fa60590",
+      "json_sha256": "f5de8aa1001ecc63ce6efeec84a6fa7503d6ab1c5bcece0e2ab78ccfcd56c81b"
+    }
+  }
+}

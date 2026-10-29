@@ -1,0 +1,5 @@
+issue_type,ground_truth,affected_entity_type,affected_entity_id,expected_behavior,explanation
+unenrolled_submission,anomaly,submission,FIXTURE,"Reject at application layer; detect in offline validation","A submission exists for a learner who is not enrolled in the course."
+grade_exceeds_rubric_max,anomaly,grade,FIXTURE,"Reject invalid criterion/raw scores","A posted grade has a raw or criterion score above the rubric maximum."
+duplicate_late_penalty,anomaly,grade_penalty,FIXTURE,"Apply each penalty at most once per submission version","Two late penalties are recorded for the same submission."
+appeal_grade_change_without_audit,anomaly,appeal,FIXTURE,"Commit grade change and audit atomically","An approved appeal changed a grade without a matching audit event."
